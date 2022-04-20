@@ -1,0 +1,7 @@
+<aura:component>
+    <aura:handler event="c:formEvent" action="{!c.Painting}"/>
+
+    <div>{!v.mensaje}</div>
+    
+    <aura:attribute name="mensaje" type="string"></aura:attribute>
+</aura:component>	

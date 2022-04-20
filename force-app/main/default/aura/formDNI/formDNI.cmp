@@ -1,0 +1,13 @@
+<aura:component>
+
+    <select aura:id="OpcionSeleccionada">
+        <option value="DNI">DNI</option>
+        <option value="IMC">IMC</option>
+        <option value="LEAPYEAR">LEAPYEAR</option>
+    </select>
+
+    <input type="text" placeholder="Introduce primer dato" aura:id="dato1"/>
+    <input type="text" placeholder="Introduce segundo dato" aura:id="dato2"/>
+
+    <input type="button" value="submit" onclick="{!c.formEvent}"/>
+</aura:component>	

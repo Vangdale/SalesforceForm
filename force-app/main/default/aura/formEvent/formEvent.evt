@@ -1,0 +1,6 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="data1" type="string"></aura:attribute>
+    <aura:attribute name="data2" type="string"></aura:attribute>
+    <aura:attribute name="OpcionSeleccionada" type="string"></aura:attribute>
+    
+</aura:event>
